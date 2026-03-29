@@ -18,6 +18,7 @@ public class EmptyBlank {
         } else {
             System.out.println("Không rỗng và có chứa ký tự khác khoảng trắng");
             System.out.println("Testcase passed");
+            //comment 1
         }
     }
 }
