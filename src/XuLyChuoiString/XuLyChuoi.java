@@ -75,9 +75,7 @@ public class XuLyChuoi {
         System.out.println("Chuyển số thành chuỗi: " + String.valueOf(number));
         System.out.println("Chuyển chuỗi số thành số: " + (Integer.valueOf(stringNumber) + 5));
 
-        //Kiểm tra chuỗi rỗng
-
-        //comment 2
+        //Kiểm tra chuỗi rỗngsss
 
 
     }
