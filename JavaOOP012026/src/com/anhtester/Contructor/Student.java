@@ -10,6 +10,7 @@ public class Student {
     //Hàm xây dựng có tên trùng với tên Class
     //Không có void, không có kiểu trả về
     //Hàm xây dựng dùng để khởi tạo giá trị ban đầu cho các thuộc tính trong class
+    //Hoặc dùng để xử lý trước 1 công việc gì đó: Khởi tạo browser, mở url, kết nối database, connect APT để get token, v.v...
 
     public Student() {
         //Hàm xây dựng mặc định (default constructor)
@@ -24,7 +25,7 @@ public class Student {
 
     public Student(int id, String name, int age, String gender) {
         this.id = id;
-        this.name = name;
+        this.name = name + " - Lớp: CNTT2026A1";
         this.age = age;
         this.gender = gender;
     }
@@ -34,7 +35,6 @@ public class Student {
         System.out.println("ID: " + id);
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
-        System.out.println("Gender: " + gender);
         System.out.println("Gender: " + gender);
     }
 }
