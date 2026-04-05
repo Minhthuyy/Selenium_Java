@@ -19,16 +19,35 @@ public class Student extends Person {
         return weight;
     }
 
+    public void getInfo() {
+        super.getInfo();
+        System.out.println("Name:" + this.name);
+        System.out.println("Age:" + this.age);
+        System.out.println("Height:" + this.height);
+        System.out.println("Weight:" + this.weight);
+        System.out.println("Address:" + this.address);
+    }
+
     public void testGetInfoOfStudent() {
         Person person = new Person("Anhtester", 30, 1.75f);
         person.getInfo();
 
-        getInfo(); //Gọi phương thức của lớp cha (Person)
+        super.getInfo(); //Gọi phương thức của lớp cha (Person)
     }
 
 
     public void testTinhDiemTrungBinh(){
-        getInfo();
+        Person person = new Person("Anhtester", 30, 1.75f);
+        person.getInfo();
+
+        super.getInfo();
+    }
+
+    public static void main(String[] args) {
+        Student student = new Student("Anhtester", 30, "Hanoi", 1.75f, 70.0f);
+        student.getInfo();
+
+
     }
 
 

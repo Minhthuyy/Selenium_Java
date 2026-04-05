@@ -1,4 +1,4 @@
-package com.anhtester.ObjectClass;
+package com.anhtester.Contructor;
 
 public class LoginTest {
     public static void main(String[] args) {

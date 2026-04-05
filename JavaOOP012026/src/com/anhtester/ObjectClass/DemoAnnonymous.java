@@ -1,5 +1,7 @@
 package com.anhtester.ObjectClass;
 
+import com.anhtester.Contructor.LoginPage;
+
 public class DemoAnnonymous {
 
     public static void main(String[] args) {

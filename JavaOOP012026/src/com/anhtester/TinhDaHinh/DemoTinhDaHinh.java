@@ -4,7 +4,9 @@ public class DemoTinhDaHinh {
     public static void main(String[] args) {
 
         TinhDaHinh_NapChong.clickElement("Login Button");
+
         TinhDaHinh_NapChong.clickElement(5);
+
         TinhDaHinh_NapChong.clickElement();
 
     }
