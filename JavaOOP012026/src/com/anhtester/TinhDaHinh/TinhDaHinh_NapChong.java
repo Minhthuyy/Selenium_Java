@@ -3,7 +3,7 @@ package com.anhtester.TinhDaHinh;
 public class TinhDaHinh_NapChong {
 
     public static void clickElement(){
-        System.out.println("Clicking on element");6
+        System.out.println("Clicking on element");
     }
 
     public static void clickElement(double second){
