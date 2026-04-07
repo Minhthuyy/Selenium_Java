@@ -2,9 +2,10 @@ package com.anhtester.TinhTruuTuong;
 
 public class LoginPageCMS implements LoginActions {
 
+
     @Override
-    public void enterEmail(String email) {
-        System.out.println("Nhập email: " + email);
+    public void setEmail(String email) {
+
     }
 
     @Override

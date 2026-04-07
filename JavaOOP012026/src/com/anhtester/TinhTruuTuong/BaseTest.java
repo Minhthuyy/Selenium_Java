@@ -29,7 +29,7 @@ public class BaseTest implements BrowserFactory, CommonActions{
 
     @Override
     public void closeBrowser() {
-        System.out.println("Đóng browser: " + driver;
+        System.out.println("Đóng browser: " + driver);
     }
 
     @Override

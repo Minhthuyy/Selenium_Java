@@ -3,8 +3,9 @@ package com.anhtester.TinhTruuTuong;
 public class LoginPageCRM implements LoginActions {
 
     @Override
-    public void enterEmail(String email) {
+    public void setEmail(String email) {
         System.out.println("Nhập email: " + email);
+
     }
 
     @Override
@@ -14,7 +15,7 @@ public class LoginPageCRM implements LoginActions {
 
     @Override
     public void clickLoginButton() {
-        System.out.println("Click vào nút Login" + clickLoginButton();
+        System.out.println("Click vào nút Login");
     }
 
     public void verifyLoginSuccess(){

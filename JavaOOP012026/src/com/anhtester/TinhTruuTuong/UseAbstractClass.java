@@ -1,8 +1,13 @@
 package com.anhtester.TinhTruuTuong;
 
-public class UseAbstractClass extends DemoAbstractClass {
+public class UseAbstractClass extends DemoAbstractClass implements LoginActions {
     @Override
     public void enterEmail(String email) {
+
+    }
+
+    @Override
+    public void setEmail(String email) {
 
     }
 
